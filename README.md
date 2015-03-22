@@ -3,14 +3,14 @@ The Gene Ontology Database Web Server System
 
 # Introduction
 
-This is the course project for _Biological Databases and Lab_ in _Zhejiang Univ. the College of Life Sciences_
+This is the course project for __Biological Databases and Lab__ in __Zhejiang Univ. the College of Life Sciences__
 
 The project aims to build a gene ontology database with some analytical functionalities, with a web query interface.
 
 Programmers:
 
-* _Yu Jiechao (Fifth)_ is a web developer, familier with js and PHP, visit: [my page](http://fifth26.com)
-* _Li Yutze (Lytze)_ uses R as main language and good at data analysis, visit: [my page](http://lytzeworkshop.com)
+* _**Yu Jiechao (Fifth)**_ is a web developer, familier with js and PHP, visit: [my page](http://fifth26.com)
+* _**Li Yutze (Lytze)**_ uses R as main language and good at data analysis, visit: [my page](http://lytzeworkshop.com)
 
 # Current Functionality
 
@@ -28,7 +28,7 @@ The raw GO database was obtained from [Pombase.org](http://www.pombase.org/downl
 * Build the main GO clustering functionality
 * Build file IO
 * Rebuild the database in SQL database system (as is required by the coures)
-* Write the system in _PHP_
+* Write the system in __PHP__
 
 # References and Linkouts
 
