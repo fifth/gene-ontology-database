@@ -16,8 +16,8 @@ Programmers:
 
 Now the application is set up at lytze's server
 
-* [The Searching App](http://lytzeworkshop.com:3838/playground/shiny_app/search_pombe_GO)
-* [The Find Frequent App](http://lytzeworkshop.com:3838/playground/shiny_app/find_frequent_GO/)
+* [The Searching App](http://lytzeworkshop.com:3838/playground/shiny_app/search_pombe_GO) (Try this query: 'clr4, epe1, ade6')
+* [The Find Frequent App](http://lytzeworkshop.com:3838/playground/shiny_app/find_frequent_GO/) (Try this query: 'clr1, clr2, clr3, clr4, epe1, cnp1', '0.6')
 
 Currently this application is not mature, with following functionalities:
 
