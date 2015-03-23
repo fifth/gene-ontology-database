@@ -16,7 +16,7 @@ Programmers:
 
 Now the application is set up at lytze's server
 
-* [The Searching App](http://lytzeworkshop.com:3838/playground/shiny_app/search_pombe_GO)]
+* [The Searching App](http://lytzeworkshop.com:3838/playground/shiny_app/search_pombe_GO)
 * [The Find Frequent App](http://lytzeworkshop.com:3838/playground/shiny_app/find_frequent_GO/)
 
 Currently this application is not mature, with following functionalities:
