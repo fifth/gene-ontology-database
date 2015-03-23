@@ -14,12 +14,17 @@ Programmers:
 
 # Current Functionality
 
-Now the application is set up at [lytze's server](http://lytzeworkshop.com:3838/playground/shiny_app/search_pombe_GO)
+Now the application is set up at lytze's server
+
+* [The Searching App](http://lytzeworkshop.com:3838/playground/shiny_app/search_pombe_GO)]
+* [The Find Frequent App](http://lytzeworkshop.com:3838/playground/shiny_app/find_frequent_GO/)
 
 Currently this application is not mature, with following functionalities:
 
 * Using gene name to query _Schizosaccharomyces pombe_'s GO database
 * Select separator used in the output
+
+* Using gene name list as input, search in the pombe database for frequent GO term combination sets (Apriori method employed)
 
 The raw GO database was obtained from [Pombase.org](http://www.pombase.org/downloads/datasets), and was processed into a data frame then packed into the `.RData` file in the 	`./databases` folder. The script do this transformation is also located in that foder
 
