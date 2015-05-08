@@ -12,6 +12,10 @@ goNum2Char <- function(go) {
 
 shinyServer(function(input, output, session) {
     
+    # set logfile
+    sink(paste('~/shinylog/gene_ontology/', Sys.Date(), sep = ''),
+         append = T, type = 'output')
+    
     # set connection to db
     con <- dbConnect(MySQL(),
                      username = 'Rmysql',

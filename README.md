@@ -16,6 +16,10 @@ Programmers:
 
 [See Github Pages Link](https://fifth.github.io/gene-ontology-database)
 
+## Hosted
+
+The application is currently hosted on [lytze's server](http://lytzeworkshop.com:3838/playground/shiny_app/crossyeast_go/) (note: the application is still building)
+
 ## References and Linkouts
 
 * The R base web application uses the `shiny` package in R and the Shiny-server provided by __RStudio Inc.__, visit the repo: [shiny](https://github.com/rstudio/shiny)

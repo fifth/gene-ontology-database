@@ -1,11 +1,15 @@
 require(shiny)
 
 shinyUI(
-    
     navbarPage(title = 'CrossYeast GO', id = 'nav',
                position = 'static-top',
+               
                tabPanel('About', value = 'about',
                         icon = icon(name = 'info', lib = 'font-awesome'),
+                        
+                        tags$head(
+                            tags$script(type = "text/javascript", src = "ga.js")
+                        ),
                         helpText('help info')
                ),
                
@@ -112,5 +116,6 @@ Gene name and ID are both supported'),
                         icon = icon(name = 'archive', lib = 'font-awesome'),
                         h2('that')
                )
+               
     )
 )
