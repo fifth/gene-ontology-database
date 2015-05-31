@@ -33,7 +33,7 @@ shinyServer(function(input, output, session) {
     # response gene-ontology query
     observeEvent(input$q_go_submit, {
         # get input
-        gene_list <- strsplit(input$q_go_gene_list, '[,\\ \\n]+')[[1]]
+        gene_list <- strsplit(input$q_go_gene_list, '[,\\ \n\t]+')[[1]]
         species <- ifelse(input$q_go_taxi == 'Sz. pombe',
                           'sz_pombe', 's_cerevisiae')
         go_type <- input$q_go_namespace
@@ -178,7 +178,7 @@ shinyServer(function(input, output, session) {
     observeEvent(input$q_og_submit, {
         # get input
         go_list <- as.numeric(
-            strsplit(gsub('GO:(\\ )*', '', input$q_og_onto_list), '[,\\ \\n]+')[[1]])
+            strsplit(gsub('GO:(\\ )*', '', input$q_og_onto_list), '[,\\ \n\t]+')[[1]])
         species <- ifelse(input$q_og_taxi == 'Sz. pombe',
                           'sz_pombe', 's_cerevisiae')
         
@@ -208,7 +208,7 @@ shinyServer(function(input, output, session) {
     # response homology query
     observeEvent(input$q_gg_submit, {
         # get input
-        gene_list <- strsplit(input$q_gg_gene_list, '[,\\ \\n]+')[[1]]
+        gene_list <- strsplit(input$q_gg_gene_list, '[,\\ \n\t]+')[[1]]
         species <- ifelse(input$q_gg_taxi == 'Sz. pombe',
                           'sz_pombe', 's_cerevisiae')
         

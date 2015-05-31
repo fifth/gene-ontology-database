@@ -2,15 +2,17 @@ require(shiny)
 
 shinyUI(
     navbarPage(title = 'CrossYeast GO', id = 'nav',
-               position = 'static-top',
+               position = 'fixed-top',
                
                tabPanel('About', value = 'about',
                         icon = icon(name = 'info', lib = 'font-awesome'),
                         
                         tags$head(
+                            tags$style(type="text/css", "body {padding-top: 70px;}"),
                             tags$script(type = "text/javascript", src = "ga.js")
                         ),
-                        helpText('help info')
+                        
+                        HTML('')
                ),
                
                navbarMenu(title = 'Query',
